@@ -75,7 +75,7 @@
     <div id="toastContainer" class="fixed top-4 left-1/2 -translate-x-1/2 z-[9999] flex flex-col gap-2 pointer-events-none w-full max-w-sm px-4"></div>
 
     <!-- LOGIN PENGUNJUNG OVERLAY -->
-    <div id="loginOverlay" class="fixed inset-0 bg-slate-50 flex items-center justify-center p-4" style="z-index: 9999;">
+    <div id="loginOverlay" class="fixed inset-0 bg-slate-50 flex items-center justify-center p-4" style=display: none; z-index: 9999;">
         <div class="bg-white rounded-3xl p-8 w-full max-w-sm shadow-2xl text-center fade-in">
             <div class="mb-6 flex flex-col items-center justify-center">
                 <img src="logo-maknaqu.png" alt="Logo MaknaQu" class="w-24 h-24 mb-3 object-contain drop-shadow-md rounded-2xl" onerror="this.style.display='none'">
@@ -96,7 +96,7 @@
 
     <!-- KARDUS GULIRAN UTAMA (App Shell Scrolling) -->
     <div id="main-scroll-wrapper">
-        <div id="appContainer" class="hidden fade-in relative">
+        <div id="appContainer" class="fade-in relative">
             <header class="bg-neutral-900 text-white p-6 shadow-md rounded-b-3xl mb-6 max-w-4xl mx-auto relative sticky top-0 z-30">
                 <div class="max-w-3xl mx-auto text-center">
                     <h1 id="headerTitle" class="text-3xl font-bold mb-1 flex items-center justify-center gap-2 text-yellow-400">
